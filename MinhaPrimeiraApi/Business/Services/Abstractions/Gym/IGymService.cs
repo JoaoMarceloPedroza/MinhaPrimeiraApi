@@ -1,4 +1,5 @@
-﻿using MinhaPrimeiraApi.Domain.Models.Gym;
+﻿using MinhaPrimeiraApi.Domain.Models.Base;
+using MinhaPrimeiraApi.Domain.Models.Gym;
 
 namespace MinhaPrimeiraApi.Business.Services.Abstractions.Gym
 {
@@ -9,6 +10,6 @@ namespace MinhaPrimeiraApi.Business.Services.Abstractions.Gym
         /// </summary>
         /// <param name="model"></param>
         /// <returns></returns>
-        Task<bool> CreateEquipmentsAsync(EquipmentsRegisterRequest model);
+        Task<BaseResultEntity> CreateEquipmentsAsync(EquipmentsRegisterRequest model);
     }
 }
