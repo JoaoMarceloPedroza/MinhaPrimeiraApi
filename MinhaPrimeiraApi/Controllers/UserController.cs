@@ -23,7 +23,7 @@ namespace MinhaPrimeiraApi.Controllers
 
         #endregion
 
-        [HttpPost("login")]
+        [HttpPost("login")]   
         public IActionResult Login()
         {
             bool _false = true;

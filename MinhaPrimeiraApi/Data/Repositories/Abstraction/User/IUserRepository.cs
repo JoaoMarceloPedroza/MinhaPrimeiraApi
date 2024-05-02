@@ -12,3 +12,5 @@ namespace MinhaPrimeiraApi.Data.Repositories.Abstraction.User
         Task<bool> CreateAsync(UserRegisterRequest model);
     }
 }
+
+

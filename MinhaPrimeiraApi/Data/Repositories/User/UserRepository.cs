@@ -11,3 +11,5 @@ namespace MinhaPrimeiraApi.Data.Repositories.User
         }
     }
 }
+
+// o que voce vai mandar e pegar do banco de dados
